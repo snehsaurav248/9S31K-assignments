@@ -1,0 +1,56 @@
+/* src/components/HomePage.css */
+.homepage {
+    padding: 20px;
+  }
+  
+  .homepage__banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .homepage__categories,
+  .homepage__featured,
+  .homepage__deals {
+    margin: 20px 0;
+  }
+  
+  .homepage__categories h2,
+  .homepage__featured h2,
+  .homepage__deals h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .homepage__categoryList,
+  .homepage__productList,
+  .homepage__dealList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .homepage__category,
+  .homepage__product,
+  .homepage__deal {
+    flex: 1 1 calc(25% - 20px);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .homepage__category img,
+  .homepage__product img,
+  .homepage__deal img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .homepage__category p,
+  .homepage__product p,
+  .homepage__deal p {
+    margin: 10px 0;
+  }
+  
