@@ -1,50 +1,40 @@
 /* src/components/Footer.css */
+
 .footer {
-    background-color: #232f3e;
-    color: #ffffff;
-    padding: 20px;
-  }
-  
-  .footer__top {
+    background-color: #f5f5f5; /* Mild milk white color */
+    padding: 30px 20px;
     display: flex;
-    justify-content: space-around;
-    border-bottom: 1px solid #444;
-    padding-bottom: 20px;
-  }
-  
-  .footer__column {
-    flex: 1;
-    padding: 10px;
-  }
-  
-  .footer__column h3 {
-    font-size: 16px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1 1 calc(33.33% - 20px); /* Adjust width of each section */
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    font-size: 18px;
+    color: #333;
     margin-bottom: 10px;
-  }
-  
-  .footer__column ul {
+}
+
+.footer-links {
     list-style: none;
     padding: 0;
-  }
-  
-  .footer__column ul li {
-    margin-bottom: 5px;
-  }
-  
-  .footer__column ul li a {
-    color: #ffffff;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #666;
     text-decoration: none;
-  }
-  
-  .footer__column ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  .footer__bottom {
-    text-align: center;
-    padding: 10px;
     font-size: 14px;
-    border-top: 1px solid #444;
-    margin-top: 20px;
-  }
-  
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ff3f6c; /* Change color on hover */
+}
