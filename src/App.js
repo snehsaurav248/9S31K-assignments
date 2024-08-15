@@ -1,15 +1,22 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import './App.css';
+import "./App.css";
 
-const App = () => {
-    return (
-        <div className="App">
-            <Navbar />
-            <Footer />
-        </div>
-    );
+// components
+import Navbar from "./components/Navbar/Navbar";
+
+// screens
+import AskShare from "./screens/AskShare";
+
+function App() {
+  return (
+    <div className="App">
+      <Navbar />
+      <AskShare />
+      {/* Navbar  */}
+      {/* Content   */}
+      {/* - widgets (cards - image, text) */}
+      {/* Footer  */}
+    </div>
+  );
 }
 
 export default App;
